@@ -1,5 +1,8 @@
 SELECT e1.name
 FROM Employee e1
-INNER JOIN Employee e2 ON e2.managerId = e1.id
-GROUP BY e1.id
-HAVING COUNT(*) >= 5 
+JOIN (
+    SELECT managerId id, COUNT(*) AS directReports
+    FROM Employee
+    GROUP BY managerId
+    HAVING COUNT(*) >= 5
+) e2 USING(id)
