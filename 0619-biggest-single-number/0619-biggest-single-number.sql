@@ -1,7 +1,6 @@
 SELECT MAX(num) num 
-FROM(
+FROM (
     SELECT num 
     FROM MyNumbers 
     GROUP BY num 
-    HAVING COUNT(num) = 1
-) AS n
+    HAVING COUNT(num) = 1) AS n
