@@ -4,7 +4,7 @@ WITH counted_one AS(
     GROUP BY employee_id
     HAVING COUNT(employee_id) = 1
 )
-SELECT DISTINCT employee_id, department_id
+SELECT employee_id, department_id
 FROM Employee
 WHERE employee_id IN (SELECT * FROM counted_one)
 OR primary_flag = 'Y'
