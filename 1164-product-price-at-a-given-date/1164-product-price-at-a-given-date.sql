@@ -1,5 +1,5 @@
 WITH vi AS(
-    SELECT *, RANK() OVER (PARTITION BY product_id ORDER BY change_date DESC) n 
+    SELECT product_id, new_price, RANK() OVER (PARTITION BY product_id ORDER BY change_date DESC) n 
     FROM Products
     WHERE change_date <= '2019-08-16'
 )
