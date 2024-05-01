@@ -1,5 +1,7 @@
-select person_name from
-(select person_name, weight, turn, sum(weight) over(order by turn) as cum_sum
-from queue) x
-where cum_sum <= 1000
-order by turn desc limit 1;
+SELECT person_name 
+FROM
+(SELECT person_name, weight, turn, SUM(weight) OVER(ORDER BY turn) s
+FROM queue) a
+WHERE s <= 1000
+ORDER BY turn DESC
+LIMIT 1;
