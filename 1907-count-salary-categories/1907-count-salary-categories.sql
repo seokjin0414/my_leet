@@ -1,5 +1,5 @@
 WITH vi AS(
-SELECT * FROM Accounts
+    SELECT * FROM Accounts
 )
 SELECT "Low Salary" category, SUM(income < 20000) accounts_count
 FROM vi
