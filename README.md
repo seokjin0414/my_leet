@@ -12,4 +12,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/seokjin0414/my_leet/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
 | [1670-patients-with-a-condition](https://github.com/seokjin0414/my_leet/tree/master/1670-patients-with-a-condition) |
 | [1811-fix-names-in-a-table](https://github.com/seokjin0414/my_leet/tree/master/1811-fix-names-in-a-table) |
+## Array
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
