@@ -1,3 +1,3 @@
-SELECT employee_id, CASE WHEN name LIKE("M%") OR employee_id % 2 = 0 THEN 0 ELSE salary END bonus
+SELECT employee_id , salary * ( employee_id%2 ) * (name NOT LIKE 'M%') bonus
 FROM Employees
-ORDER BY 1
+ORDER BY 1;
