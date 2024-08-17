@@ -1,7 +1,10 @@
-with cte as(select customer_id,
-group_concat(product_name) as products 
-from orders group by customer_id
-having find_in_set('C',products) = 0 and 
-find_in_set('A',products) > 0 and 
-find_in_set('B',products) > 0)
-select cte.customer_id,c.customer_name from Customers as c join cte on cte.customer_id = c.customer_id
+WITH data AS (
+SELECT customer_id, GROUP_CONCAT(product_name ORDER BY product_name SEPARATOR "") name_set
+FROM Orders
+GROUP BY 1
+HAVING name_set LIKE "%AB%" AND name_set NOT LIKE "%C%"
+)
+SELECT c.*
+FROM data d
+INNER JOIN Customers c ON d.customer_id = c.customer_id
+ORDER BY 1
