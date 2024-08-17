@@ -1,6 +1,7 @@
-SELECT c.customer_id, c.customer_name
-FROM Customers c
-INNER JOIN Orders o ON c.customer_id = o.customer_id
-GROUP BY c.customer_id
-HAVING SUM(o.product_name = "A") > 0 AND SUM(o.product_name = "B") > 0 AND SUM(o.product_name = "C") = 0
-ORDER BY 1
+with cte as(select customer_id,
+group_concat(product_name) as products 
+from orders group by customer_id
+having find_in_set('C',products) = 0 and 
+find_in_set('A',products) > 0 and 
+find_in_set('B',products) > 0)
+select cte.customer_id,c.customer_name from Customers as c join cte on cte.customer_id = c.customer_id
