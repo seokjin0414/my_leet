@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1625-group-sold-products-by-the-date](https://github.com/seokjin0414/my_leet/tree/master/1625-group-sold-products-by-the-date) |
 | [1664-find-users-with-valid-e-mails](https://github.com/seokjin0414/my_leet/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/seokjin0414/my_leet/tree/master/1670-patients-with-a-condition) |
+| [1749-sellers-with-no-sales](https://github.com/seokjin0414/my_leet/tree/master/1749-sellers-with-no-sales) |
 | [1811-fix-names-in-a-table](https://github.com/seokjin0414/my_leet/tree/master/1811-fix-names-in-a-table) |
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/seokjin0414/my_leet/tree/master/1974-find-customers-with-positive-revenue-this-year) |
 | [2024-calculate-special-bonus](https://github.com/seokjin0414/my_leet/tree/master/2024-calculate-special-bonus) |
