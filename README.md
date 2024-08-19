@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0196-delete-duplicate-emails](https://github.com/seokjin0414/my_leet/tree/master/0196-delete-duplicate-emails) |
 | [0585-investments-in-2016](https://github.com/seokjin0414/my_leet/tree/master/0585-investments-in-2016) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/seokjin0414/my_leet/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
+| [1214-highest-grade-for-each-student](https://github.com/seokjin0414/my_leet/tree/master/1214-highest-grade-for-each-student) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/seokjin0414/my_leet/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1536-customers-who-bought-products-a-and-b-but-not-c](https://github.com/seokjin0414/my_leet/tree/master/1536-customers-who-bought-products-a-and-b-but-not-c) |
 | [1625-group-sold-products-by-the-date](https://github.com/seokjin0414/my_leet/tree/master/1625-group-sold-products-by-the-date) |
