@@ -1,10 +1,5 @@
-WITH data AS(
-SELECT seller_id
-FROM Orders
-WHERE YEAR(sale_date) = 2020
-GROUP BY seller_id
-)
-SELECT seller_name
+SELECT s.seller_name
 FROM Seller s
-WHERE seller_id NOT IN (SELECT * FROM data)
+LEFT JOIN Orders o ON s.seller_id = o.seller_id AND YEAR(sale_date) = 2020
+WHERE o.seller_id IS NULL
 ORDER BY 1
