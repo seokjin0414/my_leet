@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0185-department-top-three-salaries](https://github.com/seokjin0414/my_leet/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/seokjin0414/my_leet/tree/master/0196-delete-duplicate-emails) |
 | [0585-investments-in-2016](https://github.com/seokjin0414/my_leet/tree/master/0585-investments-in-2016) |
+| [0586-customer-placing-the-largest-number-of-orders](https://github.com/seokjin0414/my_leet/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/seokjin0414/my_leet/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
 | [0607-sales-person](https://github.com/seokjin0414/my_leet/tree/master/0607-sales-person) |
 | [1179-game-play-analysis-i](https://github.com/seokjin0414/my_leet/tree/master/1179-game-play-analysis-i) |
