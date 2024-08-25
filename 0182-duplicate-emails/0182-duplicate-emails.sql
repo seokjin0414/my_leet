@@ -1,4 +1,4 @@
 SELECT email
 FROM Person
 GROUP BY 1
-HAVING COUNT(1) > 1
+HAVING COUNT(email) > 1
