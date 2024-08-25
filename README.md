@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1664-find-users-with-valid-e-mails](https://github.com/seokjin0414/my_leet/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/seokjin0414/my_leet/tree/master/1670-patients-with-a-condition) |
 | [1718-warehouse-manager](https://github.com/seokjin0414/my_leet/tree/master/1718-warehouse-manager) |
+| [1734-bank-account-summary-ii](https://github.com/seokjin0414/my_leet/tree/master/1734-bank-account-summary-ii) |
 | [1749-sellers-with-no-sales](https://github.com/seokjin0414/my_leet/tree/master/1749-sellers-with-no-sales) |
 | [1811-fix-names-in-a-table](https://github.com/seokjin0414/my_leet/tree/master/1811-fix-names-in-a-table) |
 | [1842-number-of-calls-between-two-persons](https://github.com/seokjin0414/my_leet/tree/master/1842-number-of-calls-between-two-persons) |
