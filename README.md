@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1565-evaluate-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1565-evaluate-boolean-expression) |
 | [1578-apples-oranges](https://github.com/seokjin0414/my_leet/tree/master/1578-apples-oranges) |
 | [1625-group-sold-products-by-the-date](https://github.com/seokjin0414/my_leet/tree/master/1625-group-sold-products-by-the-date) |
+| [1654-customer-order-frequency](https://github.com/seokjin0414/my_leet/tree/master/1654-customer-order-frequency) |
 | [1664-find-users-with-valid-e-mails](https://github.com/seokjin0414/my_leet/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/seokjin0414/my_leet/tree/master/1670-patients-with-a-condition) |
 | [1718-warehouse-manager](https://github.com/seokjin0414/my_leet/tree/master/1718-warehouse-manager) |
