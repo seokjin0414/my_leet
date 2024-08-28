@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0585-investments-in-2016](https://github.com/seokjin0414/my_leet/tree/master/0585-investments-in-2016) |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/seokjin0414/my_leet/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/seokjin0414/my_leet/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
+| [0603-consecutive-available-seats](https://github.com/seokjin0414/my_leet/tree/master/0603-consecutive-available-seats) |
 | [0607-sales-person](https://github.com/seokjin0414/my_leet/tree/master/0607-sales-person) |
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/seokjin0414/my_leet/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1179-game-play-analysis-i](https://github.com/seokjin0414/my_leet/tree/master/1179-game-play-analysis-i) |
