@@ -1,70 +1,114 @@
-use std::collections::HashMap;
-const OFFSET: i32 = 10001;
-
-struct DSU {
-    parent: HashMap<i32, i32>,
-    sizes: HashMap<i32, i32>,
-    pub sets: i32,
-}
-
-impl DSU {
-    pub fn new() -> Self {
-        DSU {parent: HashMap::new(), sizes: HashMap::new(), sets: 0}
-    }
-
-    fn find(&mut self, a: i32) -> i32 {
-        let ap = *self.parent(a);
-        if ap != a {
-            *self.parent(a) = self.find(ap);
-        }
-        *self.parent(a)
-    }
-
-    pub fn insert(&mut self, a: i32, b: i32) {
-        let (ap, bp) = (self.find(a), self.find(b));
-        let (apsz, bpsz) = (*self.size(ap), *self.size(bp));
-
-        if ap == bp {
-            return;
-        }
-
-        if apsz < bpsz {
-            *self.size(bp) += apsz;
-            *self.parent(ap) = bp;
-        } else {
-            *self.size(ap) += bpsz;
-            *self.parent(bp) = ap;
-        }
-
-        self.sets -= 1;
-    }
-
-    fn together(&mut self, a: i32, b: i32) -> bool {
-        self.find(a) == self.find(b)
-    }
-
-    fn parent(&mut self, node: i32) -> &mut i32 {
-        self.parent.entry(node).or_insert_with(|| {
-            self.sets += 1;
-            node
-        })
-    }
-
-    fn size(&mut self, node: i32) -> &mut i32 {
-        self.sizes.entry(node).or_insert(1)
-    }
-}
+use std::collections::{BTreeSet, HashMap};
+use std::convert::{TryFrom, TryInto};
 
 impl Solution {
     pub fn remove_stones(stones: Vec<Vec<i32>>) -> i32 {
-        let mut g = DSU::new();
-        let n = stones.len() as i32;
-        for coord in stones {
-            let [x, y] = coord[..] else { return 0; };
-            g.insert(x, y + OFFSET);
-            println!("components: {}", g.sets);
+        let stones: Vec<(i32, i32)> = stones
+            .into_iter()
+            .map(|coord| {
+                assert_eq!(coord.len(), 2);
+                (coord[0], coord[1])
+            })
+            .collect();
+
+        let mut row_to_first_idx = HashMap::with_capacity(stones.len());
+        let mut col_to_first_idx = HashMap::with_capacity(stones.len());
+        for (i, &(row, col)) in stones.iter().enumerate() {
+            let i = u32::try_from(i).unwrap();
+            row_to_first_idx.entry(row).or_insert(i);
+            col_to_first_idx.entry(col).or_insert(i);
         }
-        
-        n - g.sets
+
+        let n: u32 = stones.len().try_into().unwrap();
+        let mut djs = DisjointSet::new(n);
+        for (i, &(row, col)) in stones.iter().enumerate() {
+            let i = u32::try_from(i).unwrap();
+            let first_row_idx = *row_to_first_idx.get(&row).unwrap();
+            let first_col_idx = *col_to_first_idx.get(&col).unwrap();
+            djs.union(first_row_idx, i);
+            djs.union(first_col_idx, i);
+        }
+
+        let unique_roots: BTreeSet<u32> = (0..n).map(|i| djs.get_root(i)).collect();
+        let remaining_stones = unique_roots.len();
+        let existed_stones = stones.len();
+        (existed_stones - remaining_stones).try_into().unwrap()
+    }
+}
+
+struct DisjointSet {
+    data: Box<[u32]>,
+}
+
+#[inline]
+#[track_caller]
+fn u2s(idx: u32) -> usize {
+    idx.try_into().unwrap()
+}
+
+impl DisjointSet {
+    fn new(size: u32) -> Self {
+        let double_size = usize::try_from(size).unwrap() * 2;
+        let mut res = Self {
+            data: vec![0; double_size].into(),
+        };
+        let (roots, ranks) = res.roots_and_ranks();
+        for (i, v) in roots.iter_mut().enumerate() {
+            *v = u32::try_from(i).unwrap();
+        }
+        ranks.fill(1);
+        res
+    }
+
+    fn roots_and_ranks(&mut self) -> (&mut [u32], &mut [u32]) {
+        let half_len = self.data.len() / 2;
+        self.data.split_at_mut(half_len)
+    }
+
+    fn get_root(&mut self, position: u32) -> u32 {
+        let (roots, _) = self.roots_and_ranks();
+        let mut current = position;
+        while roots[u2s(current)] != current {
+            current = roots[u2s(current)];
+        }
+        let root = current;
+        if roots[u2s(position)] == root {
+            return root;
+        }
+
+        current = position;
+        while current != root {
+            let nxt = roots[u2s(current)];
+            roots[u2s(current)] = root;
+            current = nxt;
+        }
+        root
+    }
+
+    fn union(&mut self, f: u32, s: u32) {
+        use std::cmp::Ordering;
+
+        if f == s {
+            return;
+        }
+
+        let root_f = self.get_root(f);
+        let root_s = self.get_root(s);
+        if root_f == root_s {
+            return;
+        }
+
+        let (roots, ranks) = self.roots_and_ranks();
+        let rank_f = ranks[u2s(root_f)];
+        let rank_s = ranks[u2s(root_s)];
+        match rank_f.cmp(&rank_s) {
+            Ordering::Less => roots[u2s(root_f)] = root_s,
+            Ordering::Greater => roots[u2s(root_s)] = root_f,
+            Ordering::Equal => {
+                let new_rank = rank_f + 1;
+                roots[u2s(root_s)] = root_f;
+                ranks[u2s(root_f)] = new_rank;
+            }
+        }
     }
 }
