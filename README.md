@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/seokjin0414/my_leet/tree/master/1974-find-customers-with-positive-revenue-this-year) |
 | [2024-calculate-special-bonus](https://github.com/seokjin0414/my_leet/tree/master/2024-calculate-special-bonus) |
 | [2041-the-latest-login-in-2020](https://github.com/seokjin0414/my_leet/tree/master/2041-the-latest-login-in-2020) |
+| [2110-employees-with-missing-information](https://github.com/seokjin0414/my_leet/tree/master/2110-employees-with-missing-information) |
 ## Array
 |  |
 | ------- |
