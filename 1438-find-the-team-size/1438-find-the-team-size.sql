@@ -1,8 +1,2 @@
-WITH size AS (
-    SELECT team_id, COUNT(*) cnt
-    FROM Employee
-    GROUP BY 1
-)
-SELECT e.employee_id, s.cnt team_size
-FROM Employee e
-INNER JOIN size s USING(team_id)
+SELECT employee_id, COUNT(*) OVER(PARTITION BY team_id) team_size
+FROM employee
