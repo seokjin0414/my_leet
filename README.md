@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1399-page-recommendations](https://github.com/seokjin0414/my_leet/tree/master/1399-page-recommendations) |
 | [1438-find-the-team-size](https://github.com/seokjin0414/my_leet/tree/master/1438-find-the-team-size) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/seokjin0414/my_leet/tree/master/1462-list-the-products-ordered-in-a-period) |
+| [1481-students-with-invalid-departments](https://github.com/seokjin0414/my_leet/tree/master/1481-students-with-invalid-departments) |
 | [1536-customers-who-bought-products-a-and-b-but-not-c](https://github.com/seokjin0414/my_leet/tree/master/1536-customers-who-bought-products-a-and-b-but-not-c) |
 | [1541-top-travellers](https://github.com/seokjin0414/my_leet/tree/master/1541-top-travellers) |
 | [1565-evaluate-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1565-evaluate-boolean-expression) |
