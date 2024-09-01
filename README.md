@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0613-shortest-distance-in-a-line](https://github.com/seokjin0414/my_leet/tree/master/0613-shortest-distance-in-a-line) |
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/seokjin0414/my_leet/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1179-game-play-analysis-i](https://github.com/seokjin0414/my_leet/tree/master/1179-game-play-analysis-i) |
+| [1180-game-play-analysis-ii](https://github.com/seokjin0414/my_leet/tree/master/1180-game-play-analysis-ii) |
 | [1181-game-play-analysis-iii](https://github.com/seokjin0414/my_leet/tree/master/1181-game-play-analysis-iii) |
 | [1214-highest-grade-for-each-student](https://github.com/seokjin0414/my_leet/tree/master/1214-highest-grade-for-each-student) |
 | [1291-immediate-food-delivery-i](https://github.com/seokjin0414/my_leet/tree/master/1291-immediate-food-delivery-i) |
