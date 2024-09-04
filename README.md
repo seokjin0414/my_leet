@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
+| [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/seokjin0414/my_leet/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Two Pointers
 |  |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 ## Union Find
 |  |
@@ -105,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/seokjin0414/my_leet/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/seokjin0414/my_leet/tree/master/2132-convert-1d-array-into-2d-array) |
 ## String
