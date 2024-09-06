@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1837-daily-leads-and-partners](https://github.com/seokjin0414/my_leet/tree/master/1837-daily-leads-and-partners) |
 | [1842-number-of-calls-between-two-persons](https://github.com/seokjin0414/my_leet/tree/master/1842-number-of-calls-between-two-persons) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/seokjin0414/my_leet/tree/master/1892-find-total-time-spent-by-each-employee) |
+| [1898-leetflex-banned-accounts](https://github.com/seokjin0414/my_leet/tree/master/1898-leetflex-banned-accounts) |
 | [1932-grand-slam-titles](https://github.com/seokjin0414/my_leet/tree/master/1932-grand-slam-titles) |
 | [1948-rearrange-products-table](https://github.com/seokjin0414/my_leet/tree/master/1948-rearrange-products-table) |
 | [1974-find-customers-with-positive-revenue-this-year](https://github.com/seokjin0414/my_leet/tree/master/1974-find-customers-with-positive-revenue-this-year) |
