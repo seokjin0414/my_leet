@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0176-second-highest-salary](https://github.com/seokjin0414/my_leet/tree/master/0176-second-highest-salary) |
 | [0182-duplicate-emails](https://github.com/seokjin0414/my_leet/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/seokjin0414/my_leet/tree/master/0183-customers-who-never-order) |
+| [0184-department-highest-salary](https://github.com/seokjin0414/my_leet/tree/master/0184-department-highest-salary) |
 | [0185-department-top-three-salaries](https://github.com/seokjin0414/my_leet/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/seokjin0414/my_leet/tree/master/0196-delete-duplicate-emails) |
 | [0585-investments-in-2016](https://github.com/seokjin0414/my_leet/tree/master/0585-investments-in-2016) |
