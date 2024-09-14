@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1291-immediate-food-delivery-i](https://github.com/seokjin0414/my_leet/tree/master/1291-immediate-food-delivery-i) |
 | [1339-team-scores-in-football-tournament](https://github.com/seokjin0414/my_leet/tree/master/1339-team-scores-in-football-tournament) |
 | [1399-page-recommendations](https://github.com/seokjin0414/my_leet/tree/master/1399-page-recommendations) |
+| [1420-find-the-start-and-end-number-of-continuous-ranges](https://github.com/seokjin0414/my_leet/tree/master/1420-find-the-start-and-end-number-of-continuous-ranges) |
 | [1438-find-the-team-size](https://github.com/seokjin0414/my_leet/tree/master/1438-find-the-team-size) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/seokjin0414/my_leet/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1481-students-with-invalid-departments](https://github.com/seokjin0414/my_leet/tree/master/1481-students-with-invalid-departments) |
