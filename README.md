@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1688-the-most-recent-orders-for-each-product](https://github.com/seokjin0414/my_leet/tree/master/1688-the-most-recent-orders-for-each-product) |
 | [1718-warehouse-manager](https://github.com/seokjin0414/my_leet/tree/master/1718-warehouse-manager) |
 | [1734-bank-account-summary-ii](https://github.com/seokjin0414/my_leet/tree/master/1734-bank-account-summary-ii) |
+| [1735-the-most-frequently-ordered-products-for-each-customer](https://github.com/seokjin0414/my_leet/tree/master/1735-the-most-frequently-ordered-products-for-each-customer) |
 | [1749-sellers-with-no-sales](https://github.com/seokjin0414/my_leet/tree/master/1749-sellers-with-no-sales) |
 | [1811-fix-names-in-a-table](https://github.com/seokjin0414/my_leet/tree/master/1811-fix-names-in-a-table) |
 | [1837-daily-leads-and-partners](https://github.com/seokjin0414/my_leet/tree/master/1837-daily-leads-and-partners) |
