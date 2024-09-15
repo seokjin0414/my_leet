@@ -6,4 +6,3 @@ WITH ranked AS (
 SELECT user_id, MAX(value) biggest_window
 FROM ranked    
 GROUP BY 1
-ORDER BY 1
