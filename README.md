@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1214-highest-grade-for-each-student](https://github.com/seokjin0414/my_leet/tree/master/1214-highest-grade-for-each-student) |
 | [1291-immediate-food-delivery-i](https://github.com/seokjin0414/my_leet/tree/master/1291-immediate-food-delivery-i) |
 | [1339-team-scores-in-football-tournament](https://github.com/seokjin0414/my_leet/tree/master/1339-team-scores-in-football-tournament) |
+| [1357-report-contiguous-dates](https://github.com/seokjin0414/my_leet/tree/master/1357-report-contiguous-dates) |
 | [1399-page-recommendations](https://github.com/seokjin0414/my_leet/tree/master/1399-page-recommendations) |
 | [1405-all-people-report-to-the-given-manager](https://github.com/seokjin0414/my_leet/tree/master/1405-all-people-report-to-the-given-manager) |
 | [1420-find-the-start-and-end-number-of-continuous-ranges](https://github.com/seokjin0414/my_leet/tree/master/1420-find-the-start-and-end-number-of-continuous-ranges) |
