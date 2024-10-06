@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
 | [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
+| [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/seokjin0414/my_leet/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
+| [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Stack
 |  |
@@ -116,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
