@@ -1,50 +1,34 @@
-use std::collections::{BinaryHeap};
 impl Solution {
     pub fn smallest_range(nums: Vec<Vec<i32>>) -> Vec<i32> {
-        let mut heap = BinaryHeap::new();
-        let mut n = 0;
-
-        for i in 0..nums.len() {
-            heap.push((-nums[i][0], i, 0));
-            n += nums[i].len();
-        }
-
-        let mut s = Vec::with_capacity(n);
-        let mut counts = vec![0; nums.len()];
-        let mut count = 0;
-        let mut left = 0;
-        let mut best = [-100000, 100000];
-
-        while let Some((val, i, j)) = heap.pop() {
-            let val = -val;
-            s.push((val, i));
-
-            if j+1 < nums[i].len() {
-                heap.push((-nums[i][j+1], i, j+1));
-            }
-
-            counts[i] += 1;
-
-            if counts[i] == 1 {
-                count += 1
-            }
-
-            while count == nums.len() {
-                let (v, k) = s[left];
-                
-                if val - v < best[1] - best[0] {
-                    best = [v, val];
-                }
-
-                counts[k] -= 1;
-
-                if counts[k] == 0 {
-                    count -= 1
-                }
-                
-                left += 1;
+        let mut v: Vec<(i32, usize)> = Vec::new();
+        let K: usize = nums.len();
+        for k in 0..K {
+            for a in &nums[k] {
+                v.push((*a, k));
             }
         }
-        best.to_vec()
+        v.sort_by_key(|x| x.0);
+
+        let mut count: Vec<usize> = vec![0; K];
+        let mut i: usize = 0;
+        let mut k: usize = 0;
+
+        let mut lb: i32 = -100001;
+        let mut ub: i32 = 100001;
+        for j in 0..v.len() {
+            count[v[j].1] += 1;
+            if count[v[j].1] == 1 { k += 1; }
+            if k == K {
+                while i <= j && count[v[i].1] > 1 {
+                    count[v[i].1] -= 1;
+                    i += 1;
+                }
+                if v[j].0 - v[i].0 < ub - lb {
+                    ub = v[j].0;
+                    lb = v[i].0;
+                }
+            }
+        }
+        vec![lb, ub]
     }
 }
