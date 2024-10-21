@@ -1,11 +1,11 @@
 use std::collections::*;
 
-struct Sub {
+struct Cal {
   result: usize,
   s: Vec<char>
 }
 
-impl Sub {
+impl Cal {
   fn dfs(&mut self, set: &mut HashSet<Vec<char>>, index: usize) {
     let size = self.s.len();
 
@@ -29,11 +29,11 @@ impl Sub {
 
 impl Solution {
   pub fn max_unique_split(s: String) -> i32 {
-    let mut s = Sub {
+    let mut cal = Cal {
         result: 0,
         s: s.chars().collect()
     };
-    s.dfs(&mut HashSet::new(), 0);
-    s.result as i32
+    cal.dfs(&mut HashSet::new(), 0);
+    cal.result as i32
   }
 }
