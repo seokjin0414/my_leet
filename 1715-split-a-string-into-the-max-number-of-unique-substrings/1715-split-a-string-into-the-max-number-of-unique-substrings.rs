@@ -6,21 +6,22 @@ struct Sub {
 }
 
 impl Sub {
-  fn dfs(&mut self, set: &mut HashSet<Vec<char>>, size: usize) {
-    let l = self.s.len();
-    if size == l {
+  fn dfs(&mut self, set: &mut HashSet<Vec<char>>, index: usize) {
+    let size = self.s.len();
+
+    if index == size {
       self.result = std::cmp::max(self.result, set.len());
       return
     }
 
-    let mut temp = vec![];
-    for i in size..l {
-      temp.push(self.s[i]);
+    let mut vec = vec![];
+    for i in index..size {
+      vec.push(self.s[i]);
 
-      if !set.contains(&temp) {
-        set.insert(temp.clone());
+      if !set.contains(&vec) {
+        set.insert(vec.clone());
         self.dfs(set, i+1);
-        set.remove(&temp);
+        set.remove(&vec);
       }
     }
   }
