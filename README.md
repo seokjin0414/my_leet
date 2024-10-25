@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/seokjin0414/my_leet/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
 |  |
@@ -162,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/seokjin0414/my_leet/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1894-merge-strings-alternately](https://github.com/seokjin0414/my_leet/tree/master/1894-merge-strings-alternately) |
@@ -180,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
 ## Prefix Sum
 |  |
