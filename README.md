@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
+| [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
@@ -246,4 +247,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
