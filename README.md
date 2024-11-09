@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3394-minimum-array-end](https://github.com/seokjin0414/my_leet/tree/master/3394-minimum-array-end) |
 ## Enumeration
 |  |
 | ------- |
