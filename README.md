@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -207,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -230,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/seokjin0414/my_leet/tree/master/3394-minimum-array-end) |
 ## Enumeration
 |  |
