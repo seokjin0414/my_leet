@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Two Pointers
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
+| [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -216,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/seokjin0414/my_leet/tree/master/3195-separate-black-and-white-balls) |
 ## Heap (Priority Queue)
 |  |
@@ -252,8 +255,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 ## String Matching
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
+## Number Theory
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 <!---LeetCode Topics End-->
