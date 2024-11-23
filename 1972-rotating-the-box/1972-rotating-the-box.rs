@@ -1,22 +1,28 @@
 impl Solution {
-    pub fn rotate_the_box(grid: Vec<Vec<char>>) -> Vec<Vec<char>> {
-        let rows = grid.len();
-        let cols = grid[0].len();
-        
-        let mut res = vec![vec!['.'; rows]; cols];
-        
-        for r in 0..rows {
-            let mut i = cols - 1;
-            for c in (0..cols).rev() {
-                if grid[r][c] == '#' {
-                    res[i][rows - r - 1] = '#';
-                    i = i.saturating_sub(1);
-                } else if grid[r][c] == '*' {
-                    res[c][rows - r - 1] = '*';
-                    i = c.saturating_sub(1);
+    pub fn rotate_the_box(mybox: Vec<Vec<char>>) -> Vec<Vec<char>> {
+        let m = mybox.len();
+        let n = mybox[0].len();
+        let mut rotated = vec![vec!['.'; m]; n];
+
+        // Rotate the box 90 degrees clockwise
+        for (row_idx, row) in mybox.iter().enumerate() {
+            let mut empty_row = n;
+            for (col_idx, &cell) in row.iter().enumerate().rev() {
+                match &cell {
+                    '#' => {
+                        empty_row -= 1;
+                        rotated[empty_row][m - row_idx - 1] = cell;
+                    }
+                    '*' => {
+                        rotated[col_idx][m - row_idx - 1] = '*';
+                        empty_row = col_idx;
+                    }
+                    _ => {}
                 }
             }
         }
-        res
+
+
+        rotated
     }
 }
