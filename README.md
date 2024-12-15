@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1917-maximum-average-pass-ratio](https://github.com/seokjin0414/my_leet/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/seokjin0414/my_leet/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/seokjin0414/my_leet/tree/master/2089-maximum-matrix-sum) |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1917-maximum-average-pass-ratio](https://github.com/seokjin0414/my_leet/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/seokjin0414/my_leet/tree/master/2089-maximum-matrix-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
+| [1917-maximum-average-pass-ratio](https://github.com/seokjin0414/my_leet/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/seokjin0414/my_leet/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/seokjin0414/my_leet/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
