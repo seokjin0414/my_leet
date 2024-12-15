@@ -1,61 +1,52 @@
-use std::collections::BinaryHeap;
+use std::cmp::Ordering;
+
+#[derive(PartialEq)]
+struct MaxNonNan(f64);
+impl Eq for MaxNonNan {}
+impl PartialOrd for MaxNonNan {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        self.0.partial_cmp(&other.0)
+    }
+}
+impl Ord for MaxNonNan {
+    fn cmp(&self, other: &MaxNonNan) -> Ordering {
+        self.partial_cmp(other).unwrap()
+    }
+}
 
 impl Solution {
     pub fn max_average_ratio(classes: Vec<Vec<i32>>, extra_students: i32) -> f64 {
-        #[derive(Eq, Clone, Copy)]
-        struct Class {
-            pass: u32,
-            total: u32,
-        }
+        use std::collections::BinaryHeap;
 
-        impl Class {
-            fn inc_characteristic(self) -> f64 {
-                (self.total - self.pass) as f64
-                    / (self.total as u64 * (self.total + 1) as u64) as f64
-            }
+        let diff_ratio = |pass: i32, total: i32| -> MaxNonNan {
+            let rate = pass as f64 / total as f64;
+            let new_rate = (pass as f64 + 1.0) / (total as f64 + 1.0);
+            MaxNonNan(new_rate - rate)
+        };
 
-            fn add_one_student(&mut self) {
-                self.pass += 1;
-                self.total += 1;
-            }
+        let mut max_heap = classes
+          .into_iter()
+          .map(|i| {
+            let pass = i[0];
+            let total = i[1];
+            (diff_ratio(pass, total), pass, total)
+          })
+          .collect::<BinaryHeap<_>>();
 
-            fn ratio(self) -> f64 {
-                self.pass as f64 / self.total as f64
-            }
-        }
+        let n = max_heap.len() as f64;
+        let sum: f64 = max_heap
+          .iter()
+          .map(|&(_, pass, total)| pass as f64 / total as f64)
+          .sum();
 
-        impl PartialEq for Class {
-            fn eq(&self, other: &Self) -> bool {
-                self.inc_characteristic() == other.inc_characteristic()
-            }
-        }
-
-        impl PartialOrd for Class {
-            fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
-                Some(self.cmp(other))
-            }
-        }
-
-        impl Ord for Class {
-            fn cmp(&self, other: &Self) -> std::cmp::Ordering {
-                self.inc_characteristic()
-                    .total_cmp(&other.inc_characteristic())
-            }
-        }
-
-        let n = classes.len();
-        let mut classes: BinaryHeap<_> = classes
-            .into_iter()
-            .map(|class| Class {
-                pass: class[0] as _,
-                total: class[1] as _,
-            })
-            .collect();
-
-        for _ in 0..extra_students {
-            classes.peek_mut().unwrap().add_one_student();
-        }
-
-        classes.into_iter().map(Class::ratio).sum::<f64>() / n as f64
+        let extra_sum: f64 = (0..extra_students)
+          .map(|_| {
+            let (MaxNonNan(gained), pass, total) = max_heap.pop().unwrap();
+            max_heap.push((diff_ratio(pass + 1, total + 1), pass + 1, total + 1));
+            gained
+          })
+          .sum();
+        
+        (sum + extra_sum) / n
     }
 }
