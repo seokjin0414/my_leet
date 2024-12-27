@@ -8,4 +8,4 @@ WITH cal AS (
 )
 SELECT order_id
 FROM cal
-WHERE max_v > (Select MAX(avg_v) FROM cal)
+WHERE max_v > (Select MAX(avg_v) FROM cal);
