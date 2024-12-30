@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0175-combine-two-tables](https://github.com/seokjin0414/my_leet/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/seokjin0414/my_leet/tree/master/0176-second-highest-salary) |
+| [0177-nth-highest-salary](https://github.com/seokjin0414/my_leet/tree/master/0177-nth-highest-salary) |
 | [0182-duplicate-emails](https://github.com/seokjin0414/my_leet/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/seokjin0414/my_leet/tree/master/0183-customers-who-never-order) |
 | [0184-department-highest-salary](https://github.com/seokjin0414/my_leet/tree/master/0184-department-highest-salary) |
