@@ -182,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/seokjin0414/my_leet/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1894-merge-strings-alternately](https://github.com/seokjin0414/my_leet/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/seokjin0414/my_leet/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2232-adding-spaces-to-a-string](https://github.com/seokjin0414/my_leet/tree/master/2232-adding-spaces-to-a-string) |
 | [2580-circular-sentence](https://github.com/seokjin0414/my_leet/tree/master/2580-circular-sentence) |
@@ -265,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/seokjin0414/my_leet/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/seokjin0414/my_leet/tree/master/2358-number-of-ways-to-split-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -309,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/seokjin0414/my_leet/tree/master/3394-minimum-array-end) |
