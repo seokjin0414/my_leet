@@ -187,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/seokjin0414/my_leet/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2232-adding-spaces-to-a-string](https://github.com/seokjin0414/my_leet/tree/master/2232-adding-spaces-to-a-string) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2465-shifting-letters-ii](https://github.com/seokjin0414/my_leet/tree/master/2465-shifting-letters-ii) |
 | [2580-circular-sentence](https://github.com/seokjin0414/my_leet/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -398,9 +400,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Rolling Hash
 |  |
 | ------- |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/seokjin0414/my_leet/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/seokjin0414/my_leet/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Counting
+|  |
+| ------- |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 <!---LeetCode Topics End-->
