@@ -197,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Union Find
 |  |
 | ------- |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/seokjin0414/my_leet/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/seokjin0414/my_leet/tree/master/3195-separate-black-and-white-balls) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/seokjin0414/my_leet/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Math
 |  |
 | ------- |
@@ -424,4 +426,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/seokjin0414/my_leet/tree/master/1502-construct-k-palindrome-strings) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3455-minimum-length-of-string-after-operations) |
 <!---LeetCode Topics End-->
