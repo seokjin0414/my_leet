@@ -1,19 +1,16 @@
 impl Solution {
     pub fn grid_game(grid: Vec<Vec<i32>>) -> i64 {
         let n = grid[0].len();
+        let mut row_1 = vec![0_i64; n+1];
+        let mut row_2 = vec![0_i64; n+1];
 
-        let mut memo1 = vec![0;n+1];
-        let mut memo2 = vec![0;n+1];
-        for i in 0..n {
-            memo1[i+1] = memo1[i] + grid[0][i] as i64;
-            memo2[i+1] = memo2[i] + grid[1][i] as i64;
+        for idx in 1..=n {
+            row_1[idx] = grid[0][idx - 1] as i64 + row_1[idx - 1];
+            row_2[idx] = grid[1][idx - 1] as i64 + row_2[idx - 1];
         }
 
-        let mut result = i64::max_value();
-        for i in 0..n {
-            result = result.min(memo2[i].max(memo1[n] - memo1[i+1]));
-        }
-
-        result
+        (0..n).fold(i64::MAX, |robot_2, idx| {
+            robot_2.min(row_2[idx].max(row_1[n] - row_1[idx + 1]))
+        })
     }
 }
