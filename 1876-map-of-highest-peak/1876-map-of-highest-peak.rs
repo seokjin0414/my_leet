@@ -1,43 +1,44 @@
 impl Solution {
-    pub fn highest_peak(is_water: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-        let (m, n) = (is_water.len(), is_water[0].len());
+    pub fn highest_peak(mut is_water: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+        let rows = is_water.len();    
+        let cols = is_water[0].len();
 
-        let mut visited = vec![vec![false; n]; m];
-        let mut queue = VecDeque::new();
-        let mut new_map = is_water;
-        for (i, (map_row, visited_row)) in new_map.iter_mut().zip(&mut visited).enumerate() {
-            for (j, (map_cell, visited_cell)) in map_row.iter_mut().zip(visited_row).enumerate() {
-                if replace(map_cell, 0) == 1 {
-                    queue.push_back((i, j));
-                    *visited_cell = true;
+        let mut h = vec![vec![false; cols]; rows];
+        let mut cur = vec![];
+
+        for r in 0..rows {
+            for c in 0..cols {
+                if is_water[r][c] == 1 {
+                    h[r][c] = true;
+                    cur.push((r, c));
                 }
             }
         }
-
-        while let Some((i, j)) = queue.pop_front() {
-            if i > 0 && !replace(&mut visited[i - 1][j], true) {
-                new_map[i - 1][j] = new_map[i][j] + 1;
-                queue.push_back((i - 1, j));
+        let dir = &[(0, 1), (0, -1), (1, 0), (-1, 0)];
+        let mut gen = vec![];
+        let mut level = 0;
+        
+        while !cur.is_empty() {
+            for &(r, c) in &cur {
+                is_water[r][c] = level;
+                for (dr, dc) in dir {
+                    let nr = r as i32 + dr;
+                    let nc = c as i32 + dc;
+                    if (0..rows as i32).contains(&nr) && (0..cols as i32).contains(&nc) {
+                        let (nr, nc) = (nr as usize, nc as usize);
+                        if !h[nr][nc] {
+                            h[nr][nc] = true;
+                            gen.push((nr, nc));
+                        }
+                    }
+                }
             }
 
-            if i < m - 1 && !replace(&mut visited[i + 1][j], true) {
-                new_map[i + 1][j] = new_map[i][j] + 1;
-                queue.push_back((i + 1, j));
-            }
-
-            if j > 0 && !replace(&mut visited[i][j - 1], true) {
-                new_map[i][j - 1] = new_map[i][j] + 1;
-                queue.push_back((i, j - 1));
-            }
-
-            if j < n - 1 && !replace(&mut visited[i][j + 1], true) {
-                new_map[i][j + 1] = new_map[i][j] + 1;
-                queue.push_back((i, j + 1));
-            }
+            level += 1;
+            cur.clear();
+            std::mem::swap(&mut cur, &mut gen);
         }
 
-        new_map
+        is_water
     }
 }
-
-use std::{collections::VecDeque, mem::replace};
