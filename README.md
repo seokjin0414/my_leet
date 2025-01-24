@@ -178,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/seokjin0414/my_leet/tree/master/1396-count-servers-that-communicate) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/seokjin0414/my_leet/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/seokjin0414/my_leet/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -387,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
+| [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/seokjin0414/my_leet/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/seokjin0414/my_leet/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/seokjin0414/my_leet/tree/master/1876-map-of-highest-peak) |
@@ -468,4 +471,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/seokjin0414/my_leet/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
