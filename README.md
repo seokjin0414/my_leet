@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/seokjin0414/my_leet/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/seokjin0414/my_leet/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/seokjin0414/my_leet/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1972-rotating-the-box](https://github.com/seokjin0414/my_leet/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/seokjin0414/my_leet/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/seokjin0414/my_leet/tree/master/2132-convert-1d-array-into-2d-array) |
