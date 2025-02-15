@@ -324,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1345-perform-string-shifts](https://github.com/seokjin0414/my_leet/tree/master/1345-perform-string-shifts) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/seokjin0414/my_leet/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -397,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/seokjin0414/my_leet/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Bit Manipulation
 |  |
 | ------- |
