@@ -311,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2232-adding-spaces-to-a-string](https://github.com/seokjin0414/my_leet/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/seokjin0414/my_leet/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/seokjin0414/my_leet/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/seokjin0414/my_leet/tree/master/2465-shifting-letters-ii) |
 | [2580-circular-sentence](https://github.com/seokjin0414/my_leet/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/seokjin0414/my_leet/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/seokjin0414/my_leet/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
