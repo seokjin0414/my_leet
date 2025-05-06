@@ -155,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/seokjin0414/my_leet/tree/master/0141-linked-list-cycle) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
+| [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1894-merge-strings-alternately](https://github.com/seokjin0414/my_leet/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
@@ -315,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
+| [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
 | [0952-word-subsets](https://github.com/seokjin0414/my_leet/tree/master/0952-word-subsets) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
@@ -363,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/seokjin0414/my_leet/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0806-domino-and-tromino-tiling](https://github.com/seokjin0414/my_leet/tree/master/0806-domino-and-tromino-tiling) |
+| [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
 | [1025-minimum-cost-for-tickets](https://github.com/seokjin0414/my_leet/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/seokjin0414/my_leet/tree/master/1063-best-sightseeing-pair) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/seokjin0414/my_leet/tree/master/1402-count-square-submatrices-with-all-ones) |
