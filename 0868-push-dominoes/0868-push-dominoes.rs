@@ -1,25 +1,44 @@
 impl Solution {
     pub fn push_dominoes(dominoes: String) -> String {
-        let mut ds = dominoes.into_bytes();
-        let mut l = 0;
-        let mut r = 0;
-        while l + 1 != ds.len(){
-            while r + 1 < ds.len() && ds[r] == b'.' {
-                r+=1;
-            }
-            match (ds[l], ds[r]){
-                (b'R', b'L')=>{
-                    let h = (r-l+1)/2;
-                    &mut ds[l..l+h].fill(b'R');
-                    &mut ds[r-h+1..=r].fill(b'L');
+        let mut dominoes = dominoes.into_bytes();
+        let mut prev = 0;
+        let mut right = false;
+        for i in 0..dominoes.len() {
+            match dominoes[i] {
+                b'L' => {
+                    if right {
+                        for j in prev + 1..(prev + i + 1) / 2 {
+                            dominoes[j] = b'R';
+                        }
+                        for j in (prev + i + 2) / 2..i {
+                            dominoes[j] = b'L';
+                        }
+                        prev = i;
+                        right = false;
+                    } else {
+                        for j in prev..i {
+                            dominoes[j] = b'L';
+                        }
+                        prev = i;
+                    }
                 },
-                (b'R', _)=>{&mut ds[l..=r].fill(b'R');},
-                (_, b'L')=>{&mut ds[l..=r].fill(b'L');},
-                _=>{}
+                b'R' => {
+                    if right {
+                        for j in prev + 1..i {
+                            dominoes[j] = b'R';
+                        }
+                    }
+                    prev = i;
+                    right = true;
+                },
+                _ => {},
             }
-            l = r;
-            r+=1;
-        } 
-        String::from_utf8(ds).unwrap()
+        }
+        if right {
+            for j in prev + 1..dominoes.len() {
+                dominoes[j] = b'R';
+            }
+        }
+        String::from_utf8(dominoes).unwrap()
     }
 }
