@@ -229,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/seokjin0414/my_leet/tree/master/0141-linked-list-cycle) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/seokjin0414/my_leet/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
@@ -585,4 +586,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
+## Data Stream
+|  |
+| ------- |
+| [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
 <!---LeetCode Topics End-->
