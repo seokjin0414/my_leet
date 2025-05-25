@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1293-three-consecutive-odds](https://github.com/seokjin0414/my_leet/tree/master/1293-three-consecutive-odds) |
 | [1345-perform-string-shifts](https://github.com/seokjin0414/my_leet/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 | [1396-count-servers-that-communicate](https://github.com/seokjin0414/my_leet/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/seokjin0414/my_leet/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/seokjin0414/my_leet/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -244,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/seokjin0414/my_leet/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/seokjin0414/my_leet/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
+| [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 | [1502-construct-k-palindrome-strings](https://github.com/seokjin0414/my_leet/tree/master/1502-construct-k-palindrome-strings) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -530,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/seokjin0414/my_leet/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
@@ -598,8 +601,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
+| [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 ## Data Stream
 |  |
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
+| [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 <!---LeetCode Topics End-->
