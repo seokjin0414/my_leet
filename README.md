@@ -592,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/seokjin0414/my_leet/tree/master/0141-linked-list-cycle) |
+| [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/seokjin0414/my_leet/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 ## Combinatorics
 |  |
 | ------- |
