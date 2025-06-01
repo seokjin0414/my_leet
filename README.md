@@ -370,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1345-perform-string-shifts](https://github.com/seokjin0414/my_leet/tree/master/1345-perform-string-shifts) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/seokjin0414/my_leet/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3201-distribute-candies-among-children-ii](https://github.com/seokjin0414/my_leet/tree/master/3201-distribute-candies-among-children-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/seokjin0414/my_leet/tree/master/3548-find-the-count-of-good-integers) |
 ## Dynamic Programming
 |  |
@@ -471,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3201-distribute-candies-among-children-ii](https://github.com/seokjin0414/my_leet/tree/master/3201-distribute-candies-among-children-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/seokjin0414/my_leet/tree/master/3548-find-the-count-of-good-integers) |
 ## Recursion
 |  |
@@ -596,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Combinatorics
 |  |
 | ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/seokjin0414/my_leet/tree/master/3201-distribute-candies-among-children-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/seokjin0414/my_leet/tree/master/3548-find-the-count-of-good-integers) |
 ## Design
 |  |
