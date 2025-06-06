@@ -195,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/seokjin0414/my_leet/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/seokjin0414/my_leet/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Tree
 |  |
@@ -253,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/seokjin0414/my_leet/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/seokjin0414/my_leet/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -353,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/seokjin0414/my_leet/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/seokjin0414/my_leet/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/seokjin0414/my_leet/tree/master/2465-shifting-letters-ii) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/seokjin0414/my_leet/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2580-circular-sentence](https://github.com/seokjin0414/my_leet/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
@@ -435,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/seokjin0414/my_leet/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2509-minimize-xor](https://github.com/seokjin0414/my_leet/tree/master/2509-minimize-xor) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/seokjin0414/my_leet/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/seokjin0414/my_leet/tree/master/3195-separate-black-and-white-balls) |
 ## Heap (Priority Queue)
