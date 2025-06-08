@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/seokjin0414/my_leet/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/seokjin0414/my_leet/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0361-bomb-enemy](https://github.com/seokjin0414/my_leet/tree/master/0361-bomb-enemy) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -229,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Hash Table
@@ -484,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/seokjin0414/my_leet/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Breadth-First Search
@@ -534,6 +539,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Queue
@@ -619,4 +625,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
 | [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 <!---LeetCode Topics End-->
