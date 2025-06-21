@@ -1,27 +1,38 @@
-use std::collections::HashMap;
-
 impl Solution {
     pub fn minimum_deletions(word: String, k: i32) -> i32 {
-        fn get_freqs(word: String) -> HashMap<char,i32> {
-            let mut result:HashMap<char,i32> = HashMap::new();
-            for ch in word.chars() {
-                *result.entry(ch).or_insert(0) += 1;
-            }
-            result
+        let mut counts = [0; 26];
+        for c in word.chars() {
+            counts[c as usize - 'a' as usize] += 1
         }
-        let freqs = get_freqs(word);
-        let mut freqs = freqs.iter().map(|(key,value)| *value).collect::<Vec<i32>>();
-        freqs.sort();
-        let mut result = i32::MAX;
-        let mut accum = 0;
-        for idx in 0..freqs.len() {
-            let mut res = 0;
-            for idx2 in idx+1..freqs.len() {
-                res += if freqs[idx2] > freqs[idx] + k {freqs[idx2]-freqs[idx]-k} else {0};                
+        let mut min1 = 100000;
+        let mut max1 = 0;
+        for &count in &counts {
+            if count > 0 {
+                if min1 > count {
+                    min1 = count;
+                }
+                if max1 < count {
+                    max1 = count;
+                }
             }
-            result = result.min(res+accum);
-            accum += freqs[idx];
         }
-        result
+        let mut ret = 100000;
+        for &i in &counts {
+            if i > 0 {
+                let mut tmp = 0;
+                for &j in &counts {
+                    if j < i {
+                        tmp += j;
+                    }
+                    if j > i + k {
+                        tmp += j - i - k;
+                    }
+                }
+                if ret > tmp {
+                    ret = tmp;
+                }
+            }
+        }
+        ret
     }
 }
