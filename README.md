@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/seokjin0414/my_leet/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
@@ -431,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/seokjin0414/my_leet/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/seokjin0414/my_leet/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -462,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/seokjin0414/my_leet/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -557,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/seokjin0414/my_leet/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -564,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Queue
 |  |
 | ------- |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/seokjin0414/my_leet/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
@@ -575,14 +580,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Ordered Set
 |  |
 | ------- |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
 | ------- |
+| [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Rolling Hash
 |  |
