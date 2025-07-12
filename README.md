@@ -413,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/seokjin0414/my_leet/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/seokjin0414/my_leet/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/seokjin0414/my_leet/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2164-two-best-non-overlapping-events](https://github.com/seokjin0414/my_leet/tree/master/2164-two-best-non-overlapping-events) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
 ## Trie
@@ -661,4 +662,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0333-largest-bst-subtree](https://github.com/seokjin0414/my_leet/tree/master/0333-largest-bst-subtree) |
+## Memoization
+|  |
+| ------- |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/seokjin0414/my_leet/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 <!---LeetCode Topics End-->
