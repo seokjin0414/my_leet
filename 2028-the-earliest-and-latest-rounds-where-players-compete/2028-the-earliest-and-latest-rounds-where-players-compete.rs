@@ -1,61 +1,63 @@
+use std::cmp::{min, max};
+
 impl Solution {
     pub fn earliest_and_latest(n: i32, first_player: i32, second_player: i32) -> Vec<i32> {
-        let n = n as usize;
-        let i = first_player as usize - 1;
-        let j = second_player as usize - 1;;
-        let mut dp = vec![vec![vec![vec![-1; 2]; j + 1]; i + 1]; n + 1];
-        Self::memo(n, i, j, &mut dp);
-        dp[n][i].pop().unwrap()
+        const MAX_N: usize = 30;
+        let mut f = [[[0; MAX_N]; MAX_N]; MAX_N];
+        let mut g = [[[0; MAX_N]; MAX_N]; MAX_N];
+        
+        let mut first = first_player as usize;
+        let mut second = second_player as usize;
+        if first > second {
+            std::mem::swap(&mut first, &mut second);
+        }
+        let (earliest, latest) = Self::dp(n as usize, first, second, &mut f, &mut g);
+        vec![earliest, latest]
     }
 
-    fn memo(n: usize, i: usize, j: usize, dp: &mut Vec<Vec<Vec<Vec<i32>>>>) {
-        if dp[n][i][j][0] != -1 {
-            return;
+    fn dp(n: usize, first: usize, second: usize, f: &mut [[[i32; 30]; 30]; 30], g: &mut [[[i32; 30]; 30]; 30]) -> (i32, i32) {
+        if f[n][first][second] != 0 {
+            return (f[n][first][second], g[n][first][second]);
         }
-        if i + j + 1 == n {
-            dp[n][i][j][0] = 1;
-            dp[n][i][j][1] = 1;
-            return;
+        
+        if first + second == n + 1 {
+            return (1, 1);
         }
-        let n2 = (n + 1) / 2;
-        let i_seq = i.min(n - i - 1);
-        let j_seq = j.min(n - j - 1);
-        let mut l = 0;
-        let mut m = 0;
-        let mut lr = 0;
-        let mut lm = 0;
-        let mut mr = 0;
-        for a in 0..n2 {
-            if a == i_seq || a == j_seq {
-                continue;
+        
+        // Symmetric situation handling
+        if first + second > n + 1 {
+            let (x, y) = Self::dp(n, n + 1 - second, n + 1 - first, f, g);
+            f[n][first][second] = x;
+            g[n][first][second] = y;
+            return (x, y);
+        }
+
+        let mut earliest = i32::MAX;
+        let mut latest = i32::MIN;
+        let n_half = (n + 1) / 2;
+        if second <= n_half {
+            // All on the left or center
+            for i in 0..first {
+                for j in 0..(second - first) {
+                    let (x, y) = Self::dp(n_half, i + 1, i + j + 2, f, g);
+                    earliest = min(earliest, x);
+                    latest = max(latest, y);
+                }
             }
-            let b = n - a - 1;
-            match (Self::get_region(a, i, j), Self::get_region(b, i, j)) {
-                (0, 0) => l += 1,
-                (0, 1) => lm += 1,
-                (0, 2) => lr += 1,
-                (1, 1) => m += 1,
-                (1, 2) => mr += 1,
-                (2, 2) => (),
-                _ => unreachable!(),
-            }
-        }
-        dp[n][i][j][0] = i32::MAX;
-        dp[n][i][j][1] = i32::MIN;
-        for lr_i in 0..=lr {
-            for lm_i in 0..=lm {
-                for mr_i in 0..=mr {
-                    let i2 = l + lr_i + lm_i;
-                    let j2 = l + m + lr_i + lm + mr_i + 1;
-                    Self::memo(n2, i2, j2, dp);
-                    dp[n][i][j][0] = dp[n][i][j][0].min(dp[n2][i2][j2][0] + 1);
-                    dp[n][i][j][1] = dp[n][i][j][1].max(dp[n2][i2][j2][1] + 1);
+        } else {
+            // second on the right
+            let s_prime = n + 1 - second;
+            let mid = (n - 2 * s_prime + 1) / 2;
+            for i in 0..first {
+                for j in 0..(s_prime - first) {
+                    let (x, y) = Self::dp(n_half, i + 1, i + j + mid + 2, f, g);
+                    earliest = min(earliest, x);
+                    latest = max(latest, y);
                 }
             }
         }
-    }
-
-    fn get_region(a: usize, i: usize, j: usize) -> i32 {
-        if a < i { 0 } else if a < j { 1 } else { 2 }
+        f[n][first][second] = earliest + 1;
+        g[n][first][second] = latest + 1;
+        (f[n][first][second], g[n][first][second])
     }
 }
