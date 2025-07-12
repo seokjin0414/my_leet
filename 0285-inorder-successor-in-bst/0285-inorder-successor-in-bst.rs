@@ -1,31 +1,48 @@
-use std::cell::RefCell;
 use std::rc::Rc;
+use std::cell::RefCell;
+
+type Node = Option<Rc<RefCell<TreeNode>>>;
 impl Solution {
-    pub fn inorder_successor(
-        root: Option<Rc<RefCell<TreeNode>>>,
-        p: Option<Rc<RefCell<TreeNode>>>,
-    ) -> Option<Rc<RefCell<TreeNode>>> {
-        let mut min_value_opt = None;
-        let mut min_node = None;
-        let target = p.as_ref().unwrap().borrow().val;
-
-        let mut curr = root;
-
-        while let Some(node_rc) = &curr {
-            let node_ref = node_rc.borrow();
-            let val = node_ref.val;
-            let next = if val > target {
-                if min_value_opt.is_none() || val < *min_value_opt.as_ref().unwrap() {
-                    min_value_opt = Some(val);
-                    min_node = curr.clone();
-                }
-                node_ref.left.clone()
-            } else {
-                node_ref.right.clone()
-            };
-            drop(node_ref);
-            curr = next;
+    fn dfs1(node: &Node, list: &mut Vec<i32>) {
+        if let Some(cur) = node {
+            Self::dfs1(&cur.borrow().left.clone(), list);
+            list.push(cur.borrow().val);
+            Self::dfs1(&cur.borrow().right.clone(), list);
         }
-        min_node
+    }
+
+    fn dfs2(node: &Node, target: i32, ret: &mut Node) {
+        if let Some(cur) = node {
+            let cur_val = cur.borrow().val;
+            if cur_val == target {
+                *ret = node.clone();
+                return;
+            }
+            Self::dfs2(&cur.borrow().left.clone(), target, ret);
+            Self::dfs2(&cur.borrow().right.clone(), target, ret);
+        }
+    }
+    
+    pub fn inorder_successor(root: Option<Rc<RefCell<TreeNode>>>, p: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
+        let mut list = vec![];
+        Self::dfs1(&root, &mut list);
+        if let Some(cur) = p {
+            let val = cur.borrow().val;
+            let mut target = i32::MIN;            
+            for (i, &l) in list.iter().enumerate() {
+                if i < list.len() - 1 && l == val {
+                    target = list[i + 1];
+                }
+            }
+
+            if target == i32::MIN {
+                return None;
+            }
+            
+            let mut ret = None;
+            Self::dfs2(&root, target, &mut ret);
+            return ret;
+        }
+        None
     }
 }
