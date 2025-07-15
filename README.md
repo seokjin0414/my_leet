@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/seokjin0414/my_leet/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/seokjin0414/my_leet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/seokjin0414/my_leet/tree/master/0141-linked-list-cycle) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/seokjin0414/my_leet/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
@@ -354,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/seokjin0414/my_leet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
 | [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
@@ -445,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/seokjin0414/my_leet/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
