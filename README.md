@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0361-bomb-enemy](https://github.com/seokjin0414/my_leet/tree/master/0361-bomb-enemy) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
+| [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
@@ -356,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seokjin0414/my_leet/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
 | [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
@@ -427,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/seokjin0414/my_leet/tree/master/0386-lexicographical-numbers) |
+| [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/seokjin0414/my_leet/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2755-extra-characters-in-a-string](https://github.com/seokjin0414/my_leet/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/seokjin0414/my_leet/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -496,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/seokjin0414/my_leet/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
