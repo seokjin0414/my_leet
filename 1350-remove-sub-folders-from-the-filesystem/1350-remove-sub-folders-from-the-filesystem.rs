@@ -1,20 +1,18 @@
 impl Solution {
-	pub fn remove_subfolders(mut folder: Vec<String>) -> Vec<String> {
-		folder.sort_unstable();
-        let mut i = 0;
-		
-        for j in (0..folder.len()) {
-            match &folder[..i] {
-                [.., prv] if !(folder[j].starts_with(prv) && folder[j][prv.len()..].starts_with("/")) => {
-                    folder.swap(i, j);
-                    i += 1;
-                }
-                [] => i += 1,
-                _ => {},
+    pub fn remove_subfolders(mut folder: Vec<String>) -> Vec<String> {
+        let mut res: Vec<String> = Vec::new();
+        folder.sort();
+        for key in folder {
+            if res.is_empty(){
+                res.push(key);
+                continue;
             }
-		}
-        
-        folder.truncate(i);
-        folder
-	}
+            if key.len() < res.last().unwrap().len() ||
+                &key[..res.last().unwrap().len()] != *res.last().unwrap() ||
+                key.chars().nth(res.last().unwrap().len()) != Some('/') {
+                res.push(key);
+            }
+        }
+        res
+    }
 }
