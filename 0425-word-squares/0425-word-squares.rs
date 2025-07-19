@@ -1,83 +1,98 @@
-const N_LETTERS: usize = (b'z' - b'a' + 1) as usize;
+use std::collections::HashMap;
 
-#[derive(Default)]
-struct TrieNode {
-    children: [usize; N_LETTERS],
+pub struct TrieNode {
+    children: HashMap<char, Box<TrieNode>>,
+    is_end: bool,
 }
 
-struct Trie {
-    len: usize,
-    nodes: Vec<TrieNode>,
+impl TrieNode {
+    pub fn new() -> Self {
+        Self {
+            children: HashMap::new(),
+            is_end: false,
+        }
+    }
+}
+
+pub struct Trie {
+    root: TrieNode
 }
 
 impl Trie {
-    fn new(len: usize) -> Self {
-        Self { len, nodes: vec![TrieNode::default()] }
-    }
-
-    fn insert(&mut self, word: &String) {
-        let mut i = 0;
-        for c in word.bytes().map(|b| (b - b'a') as usize) {
-            if self.nodes[i].children[c] == 0 {
-                self.nodes[i].children[c] = self.nodes.len();
-                self.nodes.push(TrieNode::default());
-            }
-            i = self.nodes[i].children[c];
+    fn new() -> Self{
+        Self{
+            root: TrieNode::new()
         }
     }
 
-    fn dfs(&self, i: usize, d: usize, curr: &mut [u8], mut rez: Vec<Vec<u8>>) -> Vec<Vec<u8>> {
-        if d == curr.len() {
-            rez.push(curr.to_vec());
-        } else {
-            for j in 0..N_LETTERS {
-                if self.nodes[i].children[j] != 0 {
-                    curr[d] = j as u8 + b'a';
-                    rez = Self::dfs(&self, self.nodes[i].children[j], d + 1, curr, rez);
-                }
+    fn insert(&mut self, word: &str) {
+        let mut node = &mut self.root;
+        for ch in word.chars() {
+            node = node.children.entry(ch).or_insert_with(|| Box::new(TrieNode::new()));
+        }
+        node.is_end = true;
+    }
+
+    fn get_words_with_prefix(&self, prefix: &str) -> Vec<String> {
+        let mut node = &self.root;
+        for ch in prefix.chars(){
+            match node.children.get(&ch) {
+                Some(child) => node = child,
+                None => return vec![],
             }
         }
-        rez
+
+        // at this point node is the end of prefix
+        let mut cur = prefix.to_string();
+        let mut res = Vec::new();
+
+        Self::dfs(node,&mut cur, &mut res);
+
+        return res;
     }
 
-    fn get(&self, prefix: &[u8]) -> Vec<Vec<u8>> {
-        let mut i = 0;
-        for c in prefix.iter().map(|b| (b - b'a') as usize) {
-            if self.nodes[i].children[c] == 0 {
-                return vec![];
-            }
-            i = self.nodes[i].children[c];
+    fn dfs(node: &TrieNode, cur: &mut String, res: &mut Vec<String>) {
+        if node.is_end {
+            res.push(cur.clone());
         }
-        let mut curr = vec![0; self.len];
-        for i in 0..prefix.len() {
-            curr[i] = prefix[i];
-        }
-        Self::dfs(&self, i, prefix.len(), &mut curr, vec![])
-    }
 
+        for (&ch, child) in &node.children {
+            cur.push(ch);
+            Self::dfs(child, cur, res);
+            cur.pop();
+        }
+    }
 }
 
 impl Solution {
-    fn dfs(trie: &Trie, d: usize, square: &mut [Vec<u8>], mut rez: Vec<Vec<String>>) -> Vec<Vec<String>> {
-        if d == square.len() {
-            rez.push(square.iter().map(|w| w.iter().map(|c| *c as char).collect::<String>()).collect::<Vec<_>>());
-        } else {
-            let prefix = (0..d).map(|r| square[r][d]).collect::<Vec<_>>();
-            for word in trie.get(&prefix) {
-                square[d] = word;
-                rez = Self::dfs(trie, d + 1, square, rez);
-            }
+    pub fn word_squares(words: Vec<String>) -> Vec<Vec<String>> {
+        let mut trie = Trie::new();
+        for word in words.iter(){
+            trie.insert(&word);
         }
-        rez
+
+        let mut ans = vec![];
+        for word in words{
+            let mut cur = vec![word];
+            Self::backtrack(&mut cur, &trie, &mut ans);
+        }
+
+        ans
     }
 
-    pub fn word_squares(words: Vec<String>) -> Vec<Vec<String>> {
-        let n = words[0].len();
-        let trie = words.iter().fold(Trie::new(n), |mut trie, w| {
-            trie.insert(w);
-            trie
-        });
-        let mut square = vec![vec![0; n]; n];
-        Self::dfs(&trie, 0, &mut square, vec![])
+    pub fn backtrack(cur: &mut Vec<String>, trie: &Trie, ans: &mut Vec<Vec<String>>) {
+        let n = cur.len();
+        if n == cur[0].len(){
+            ans.push(cur.clone());
+            return;
+        }
+
+        let prefix: String = cur.iter().map(|w| w.as_bytes()[n] as char).collect();
+        let valid_words = trie.get_words_with_prefix(&prefix);
+        for word in valid_words{
+            cur.push(word);
+            Self::backtrack(cur, trie, ans);
+            cur.pop();
+        }
     }
 }
