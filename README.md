@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3429-special-array-i](https://github.com/seokjin0414/my_leet/tree/master/3429-special-array-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/seokjin0414/my_leet/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/seokjin0414/my_leet/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/seokjin0414/my_leet/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Two Pointers
 |  |
 | ------- |
@@ -413,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3201-distribute-candies-among-children-ii](https://github.com/seokjin0414/my_leet/tree/master/3201-distribute-candies-among-children-ii) |
 | [3216-distribute-candies-among-children-iii](https://github.com/seokjin0414/my_leet/tree/master/3216-distribute-candies-among-children-iii) |
 | [3548-find-the-count-of-good-integers](https://github.com/seokjin0414/my_leet/tree/master/3548-find-the-count-of-good-integers) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/seokjin0414/my_leet/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -524,6 +526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2792-neighboring-bitwise-xor](https://github.com/seokjin0414/my_leet/tree/master/2792-neighboring-bitwise-xor) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/seokjin0414/my_leet/tree/master/3394-minimum-array-end) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/seokjin0414/my_leet/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Enumeration
 |  |
 | ------- |
