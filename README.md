@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1025-minimum-cost-for-tickets](https://github.com/seokjin0414/my_leet/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/seokjin0414/my_leet/tree/master/1063-best-sightseeing-pair) |
 | [1067-campus-bikes-ii](https://github.com/seokjin0414/my_leet/tree/master/1067-campus-bikes-ii) |
+| [1098-largest-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1098-largest-unique-number) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/seokjin0414/my_leet/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1134-shortest-distance-to-target-color](https://github.com/seokjin0414/my_leet/tree/master/1134-shortest-distance-to-target-color) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/seokjin0414/my_leet/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1098-largest-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1098-largest-unique-number) |
 | [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/seokjin0414/my_leet/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2164-two-best-non-overlapping-events](https://github.com/seokjin0414/my_leet/tree/master/2164-two-best-non-overlapping-events) |
@@ -274,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [0952-word-subsets](https://github.com/seokjin0414/my_leet/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1098-largest-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1098-largest-unique-number) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/seokjin0414/my_leet/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/seokjin0414/my_leet/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/seokjin0414/my_leet/tree/master/1256-rank-transform-of-an-array) |
