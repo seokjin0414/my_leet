@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1063-best-sightseeing-pair](https://github.com/seokjin0414/my_leet/tree/master/1063-best-sightseeing-pair) |
 | [1067-campus-bikes-ii](https://github.com/seokjin0414/my_leet/tree/master/1067-campus-bikes-ii) |
 | [1098-largest-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1098-largest-unique-number) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/seokjin0414/my_leet/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1134-shortest-distance-to-target-color](https://github.com/seokjin0414/my_leet/tree/master/1134-shortest-distance-to-target-color) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/seokjin0414/my_leet/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -578,6 +579,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1134-shortest-distance-to-target-color](https://github.com/seokjin0414/my_leet/tree/master/1134-shortest-distance-to-target-color) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/seokjin0414/my_leet/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
