@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/seokjin0414/my_leet/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1972-rotating-the-box](https://github.com/seokjin0414/my_leet/tree/master/1972-rotating-the-box) |
+| [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [2048-build-array-from-permutation](https://github.com/seokjin0414/my_leet/tree/master/2048-build-array-from-permutation) |
 | [2089-maximum-matrix-sum](https://github.com/seokjin0414/my_leet/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/seokjin0414/my_leet/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -289,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/seokjin0414/my_leet/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/seokjin0414/my_leet/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/seokjin0414/my_leet/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -512,6 +514,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/seokjin0414/my_leet/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/seokjin0414/my_leet/tree/master/1917-maximum-average-pass-ratio) |
+| [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [2164-two-best-non-overlapping-events](https://github.com/seokjin0414/my_leet/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/seokjin0414/my_leet/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/seokjin0414/my_leet/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -633,6 +636,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
+| [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 | [3678-design-task-manager](https://github.com/seokjin0414/my_leet/tree/master/3678-design-task-manager) |
 ## Binary Indexed Tree
@@ -695,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
 | [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
+| [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/seokjin0414/my_leet/tree/master/3678-design-task-manager) |
 ## Data Stream
 |  |
