@@ -1,47 +1,54 @@
 use std::collections::BinaryHeap;
-use std::cmp::Reverse;
+
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+struct Brick {
+    height: i32,
+    x: usize, 
+    y: usize,
+}
+
+impl PartialOrd for Brick {
+    fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
+        Some(self.cmp(&other))
+    }
+}
+
+impl Ord for Brick {
+    fn cmp(&self, other: &Self) -> std::cmp::Ordering {
+        other.height.cmp(&self.height)
+    }
+}
 
 impl Solution {
-    pub fn trap_rain_water(height_map: Vec<Vec<i32>>) -> i32 {
-        if height_map.is_empty() || height_map[0].is_empty() {
-            return 0;
-        }
-
-        let mut heap = BinaryHeap::new();
-        let (rows, cols) = (height_map.len(), height_map[0].len());
-        let mut visited = vec![vec![false; cols]; rows];
-        let mut water_trapped = 0;
-
-        for i in 0..rows {
-            heap.push((Reverse(height_map[i][0]), (i, 0)));
-            heap.push((Reverse(height_map[i][cols - 1]), (i, cols - 1)));
-            visited[i][0] = true;
-            visited[i][cols - 1] = true;
-        }
-
-        for j in 1..cols - 1 {
-            heap.push((Reverse(height_map[0][j]), (0, j)));
-            heap.push((Reverse(height_map[rows - 1][j]), (rows - 1, j)));
-            visited[0][j] = true;
-            visited[rows - 1][j] = true;
-        }
-
-        let directions = [(0, 1), (1, 0), (0, -1), (-1, 0)];
-        while let Some((Reverse(height), (x, y))) = heap.pop() {
-            for &(dx, dy) in &directions {
-                let nx = x as i32 + dx;
-                let ny = y as i32 + dy;
-                if nx >= 0 && nx < rows as i32 && ny >= 0 && ny < cols as i32 {
-                    let (nx, ny) = (nx as usize, ny as usize);
-                    if !visited[nx][ny] {
-                        water_trapped += (height - height_map[nx][ny]).max(0);
-                        heap.push((Reverse(height.max(height_map[nx][ny])), (nx, ny)));
-                        visited[nx][ny] = true;
+    pub fn trap_rain_water(n_map: Vec<Vec<i32>>) -> i32 {
+        let m = n_map.len() as usize;
+        let n = n_map[0].len() as usize;
+        let mut bricks: BinaryHeap<Brick> = BinaryHeap::new();
+        let mut visited_bricks = vec![vec![false; n]; m];
+        n_map.iter().enumerate().for_each(|(x, row)| {
+            row.iter().enumerate().for_each(|(y, &height)| {
+                if x == 0 || y == 0 || x == m - 1 || y == n - 1 {
+                    visited_bricks[x][y] = true;
+                    bricks.push(Brick {
+                        height, x, y,
+                    });
+                }
+            })
+        });
+        let mut trapped_water_quantity = 0;
+        while let Some(Brick { height, x , y }) = bricks.pop() {
+            let next_positions = vec![(x,y-1),(x,y+1),(x-1,y),(x+1,y)];
+            for (r,c) in next_positions {
+                if r < m && c < n && !visited_bricks[r][c] {
+                    let curr_height = n_map[r][c];
+                    if height > curr_height {
+                        trapped_water_quantity += height - curr_height;
                     }
+                    bricks.push(Brick{height: height.max(curr_height),x: r, y: c});
+                    visited_bricks[r][c] = true;
                 }
             }
         }
-
-        water_trapped
+        trapped_water_quantity
     }
 }
