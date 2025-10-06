@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/seokjin0414/my_leet/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/seokjin0414/my_leet/tree/master/0854-making-a-large-island) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0663-equal-tree-partition](https://github.com/seokjin0414/my_leet/tree/master/0663-equal-tree-partition) |
 | [0684-redundant-connection](https://github.com/seokjin0414/my_leet/tree/master/0684-redundant-connection) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/seokjin0414/my_leet/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -324,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/seokjin0414/my_leet/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/seokjin0414/my_leet/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/seokjin0414/my_leet/tree/master/0684-redundant-connection) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/seokjin0414/my_leet/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/seokjin0414/my_leet/tree/master/1100-connecting-cities-with-minimum-cost) |
@@ -357,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/seokjin0414/my_leet/tree/master/0854-making-a-large-island) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/seokjin0414/my_leet/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/seokjin0414/my_leet/tree/master/1396-count-servers-that-communicate) |
@@ -527,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/seokjin0414/my_leet/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1304-longest-happy-string](https://github.com/seokjin0414/my_leet/tree/master/1304-longest-happy-string) |
@@ -584,6 +589,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0684-redundant-connection](https://github.com/seokjin0414/my_leet/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/seokjin0414/my_leet/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/seokjin0414/my_leet/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/seokjin0414/my_leet/tree/master/1396-count-servers-that-communicate) |
@@ -600,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/seokjin0414/my_leet/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1134-shortest-distance-to-target-color](https://github.com/seokjin0414/my_leet/tree/master/1134-shortest-distance-to-target-color) |
