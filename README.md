@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/seokjin0414/my_leet/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/seokjin0414/my_leet/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/seokjin0414/my_leet/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/seokjin0414/my_leet/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/seokjin0414/my_leet/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/seokjin0414/my_leet/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/seokjin0414/my_leet/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1894-merge-strings-alternately](https://github.com/seokjin0414/my_leet/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/seokjin0414/my_leet/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/seokjin0414/my_leet/tree/master/1972-rotating-the-box) |
@@ -304,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/seokjin0414/my_leet/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1612-avoid-flood-in-the-city](https://github.com/seokjin0414/my_leet/tree/master/1612-avoid-flood-in-the-city) |
 | [1694-make-sum-divisible-by-p](https://github.com/seokjin0414/my_leet/tree/master/1694-make-sum-divisible-by-p) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/seokjin0414/my_leet/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/seokjin0414/my_leet/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/seokjin0414/my_leet/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
@@ -739,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/seokjin0414/my_leet/tree/master/0359-logger-rate-limiter) |
 | [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/seokjin0414/my_leet/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2023-design-movie-rental-system](https://github.com/seokjin0414/my_leet/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/seokjin0414/my_leet/tree/master/3678-design-task-manager) |
 ## Data Stream
