@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/seokjin0414/my_leet/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3429-special-array-i](https://github.com/seokjin0414/my_leet/tree/master/3429-special-array-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/seokjin0414/my_leet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/seokjin0414/my_leet/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/seokjin0414/my_leet/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -325,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3242-count-elements-with-maximum-frequency](https://github.com/seokjin0414/my_leet/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/seokjin0414/my_leet/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/seokjin0414/my_leet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/seokjin0414/my_leet/tree/master/3548-find-the-count-of-good-integers) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/seokjin0414/my_leet/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3678-design-task-manager](https://github.com/seokjin0414/my_leet/tree/master/3678-design-task-manager) |
@@ -730,6 +732,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0141-linked-list-cycle](https://github.com/seokjin0414/my_leet/tree/master/0141-linked-list-cycle) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/seokjin0414/my_leet/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/seokjin0414/my_leet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Combinatorics
 |  |
 | ------- |
