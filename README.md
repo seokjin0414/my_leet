@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/seokjin0414/my_leet/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2685-first-completely-painted-row-or-column](https://github.com/seokjin0414/my_leet/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/seokjin0414/my_leet/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -506,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2358-number-of-ways-to-split-array](https://github.com/seokjin0414/my_leet/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/seokjin0414/my_leet/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/seokjin0414/my_leet/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/seokjin0414/my_leet/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Sliding Window
@@ -519,6 +521,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/seokjin0414/my_leet/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/seokjin0414/my_leet/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/seokjin0414/my_leet/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/seokjin0414/my_leet/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -542,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/seokjin0414/my_leet/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2509-minimize-xor](https://github.com/seokjin0414/my_leet/tree/master/2509-minimize-xor) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/seokjin0414/my_leet/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [3195-separate-black-and-white-balls](https://github.com/seokjin0414/my_leet/tree/master/3195-separate-black-and-white-balls) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/seokjin0414/my_leet/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -640,6 +644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2164-two-best-non-overlapping-events](https://github.com/seokjin0414/my_leet/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/seokjin0414/my_leet/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/seokjin0414/my_leet/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/seokjin0414/my_leet/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -670,6 +675,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1366-first-unique-number](https://github.com/seokjin0414/my_leet/tree/master/1366-first-unique-number) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/seokjin0414/my_leet/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/seokjin0414/my_leet/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/seokjin0414/my_leet/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2868-continuous-subarrays](https://github.com/seokjin0414/my_leet/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
