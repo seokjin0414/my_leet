@@ -231,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0145-binary-tree-postorder-traversal) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0364-nested-list-weight-sum-ii](https://github.com/seokjin0414/my_leet/tree/master/0364-nested-list-weight-sum-ii) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/seokjin0414/my_leet/tree/master/1197-parsing-a-boolean-expression) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/seokjin0414/my_leet/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0285-inorder-successor-in-bst](https://github.com/seokjin0414/my_leet/tree/master/0285-inorder-successor-in-bst) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/seokjin0414/my_leet/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0333-largest-bst-subtree](https://github.com/seokjin0414/my_leet/tree/master/0333-largest-bst-subtree) |
+| [0364-nested-list-weight-sum-ii](https://github.com/seokjin0414/my_leet/tree/master/0364-nested-list-weight-sum-ii) |
 | [0386-lexicographical-numbers](https://github.com/seokjin0414/my_leet/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0663-equal-tree-partition](https://github.com/seokjin0414/my_leet/tree/master/0663-equal-tree-partition) |
@@ -615,6 +617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0261-graph-valid-tree](https://github.com/seokjin0414/my_leet/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/seokjin0414/my_leet/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0364-nested-list-weight-sum-ii](https://github.com/seokjin0414/my_leet/tree/master/0364-nested-list-weight-sum-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
