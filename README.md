@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/seokjin0414/my_leet/tree/master/0285-inorder-successor-in-bst) |
 | [0333-largest-bst-subtree](https://github.com/seokjin0414/my_leet/tree/master/0333-largest-bst-subtree) |
+| [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/seokjin0414/my_leet/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0663-equal-tree-partition](https://github.com/seokjin0414/my_leet/tree/master/0663-equal-tree-partition) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -262,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0364-nested-list-weight-sum-ii](https://github.com/seokjin0414/my_leet/tree/master/0364-nested-list-weight-sum-ii) |
 | [0386-lexicographical-numbers](https://github.com/seokjin0414/my_leet/tree/master/0386-lexicographical-numbers) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
+| [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/seokjin0414/my_leet/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0663-equal-tree-partition](https://github.com/seokjin0414/my_leet/tree/master/0663-equal-tree-partition) |
 | [0684-redundant-connection](https://github.com/seokjin0414/my_leet/tree/master/0684-redundant-connection) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/seokjin0414/my_leet/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -286,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/seokjin0414/my_leet/tree/master/0285-inorder-successor-in-bst) |
 | [0333-largest-bst-subtree](https://github.com/seokjin0414/my_leet/tree/master/0333-largest-bst-subtree) |
+| [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/seokjin0414/my_leet/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0663-equal-tree-partition](https://github.com/seokjin0414/my_leet/tree/master/0663-equal-tree-partition) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/seokjin0414/my_leet/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/seokjin0414/my_leet/tree/master/2677-cousins-in-binary-tree-ii) |
