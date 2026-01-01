@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/seokjin0414/my_leet/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/seokjin0414/my_leet/tree/master/0036-valid-sudoku) |
+| [0066-plus-one](https://github.com/seokjin0414/my_leet/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/seokjin0414/my_leet/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/seokjin0414/my_leet/tree/master/0088-merge-sorted-array) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/seokjin0414/my_leet/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
@@ -463,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/seokjin0414/my_leet/tree/master/0066-plus-one) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
 | [1018-largest-perimeter-triangle](https://github.com/seokjin0414/my_leet/tree/master/1018-largest-perimeter-triangle) |
