@@ -179,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/seokjin0414/my_leet/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/seokjin0414/my_leet/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3429-special-array-i](https://github.com/seokjin0414/my_leet/tree/master/3429-special-array-i) |
+| [3454-separate-squares-ii](https://github.com/seokjin0414/my_leet/tree/master/3454-separate-squares-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/seokjin0414/my_leet/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/seokjin0414/my_leet/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -667,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2699-count-the-number-of-fair-pairs](https://github.com/seokjin0414/my_leet/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/seokjin0414/my_leet/tree/master/2716-prime-subtraction-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3454-separate-squares-ii](https://github.com/seokjin0414/my_leet/tree/master/3454-separate-squares-ii) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/seokjin0414/my_leet/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## String Matching
 |  |
@@ -725,6 +727,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0683-k-empty-slots](https://github.com/seokjin0414/my_leet/tree/master/0683-k-empty-slots) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/seokjin0414/my_leet/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3454-separate-squares-ii](https://github.com/seokjin0414/my_leet/tree/master/3454-separate-squares-ii) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -803,4 +806,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/seokjin0414/my_leet/tree/master/1100-connecting-cities-with-minimum-cost) |
+## Line Sweep
+|  |
+| ------- |
+| [3454-separate-squares-ii](https://github.com/seokjin0414/my_leet/tree/master/3454-separate-squares-ii) |
 <!---LeetCode Topics End-->
