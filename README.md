@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
+| [0422-valid-word-square](https://github.com/seokjin0414/my_leet/tree/master/0422-valid-word-square) |
 | [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/seokjin0414/my_leet/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -385,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0361-bomb-enemy](https://github.com/seokjin0414/my_leet/tree/master/0361-bomb-enemy) |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
+| [0422-valid-word-square](https://github.com/seokjin0414/my_leet/tree/master/0422-valid-word-square) |
 | [0550-shortest-path-to-get-food](https://github.com/seokjin0414/my_leet/tree/master/0550-shortest-path-to-get-food) |
 | [0787-sliding-puzzle](https://github.com/seokjin0414/my_leet/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/seokjin0414/my_leet/tree/master/0794-swim-in-rising-water) |
