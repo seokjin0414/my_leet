@@ -409,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/seokjin0414/my_leet/tree/master/0067-add-binary) |
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0906-walking-robot-simulation](https://github.com/seokjin0414/my_leet/tree/master/0906-walking-robot-simulation) |
 | [1642-water-bottles](https://github.com/seokjin0414/my_leet/tree/master/1642-water-bottles) |
@@ -424,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/seokjin0414/my_leet/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0067-add-binary](https://github.com/seokjin0414/my_leet/tree/master/0067-add-binary) |
 | [0425-word-squares](https://github.com/seokjin0414/my_leet/tree/master/0425-word-squares) |
 | [0567-permutation-in-string](https://github.com/seokjin0414/my_leet/tree/master/0567-permutation-in-string) |
 | [0812-rotate-string](https://github.com/seokjin0414/my_leet/tree/master/0812-rotate-string) |
@@ -470,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/seokjin0414/my_leet/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/seokjin0414/my_leet/tree/master/0067-add-binary) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
 | [1018-largest-perimeter-triangle](https://github.com/seokjin0414/my_leet/tree/master/1018-largest-perimeter-triangle) |
@@ -604,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/seokjin0414/my_leet/tree/master/0067-add-binary) |
 | [1067-campus-bikes-ii](https://github.com/seokjin0414/my_leet/tree/master/1067-campus-bikes-ii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/seokjin0414/my_leet/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/seokjin0414/my_leet/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
