@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0353-design-snake-game](https://github.com/seokjin0414/my_leet/tree/master/0353-design-snake-game) |
 | [0361-bomb-enemy](https://github.com/seokjin0414/my_leet/tree/master/0361-bomb-enemy) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/seokjin0414/my_leet/tree/master/0396-rotate-function) |
 | [0407-trapping-rain-water-ii](https://github.com/seokjin0414/my_leet/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/seokjin0414/my_leet/tree/master/0417-pacific-atlantic-water-flow) |
 | [0422-valid-word-square](https://github.com/seokjin0414/my_leet/tree/master/0422-valid-word-square) |
@@ -474,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/seokjin0414/my_leet/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/seokjin0414/my_leet/tree/master/0067-add-binary) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/seokjin0414/my_leet/tree/master/0396-rotate-function) |
 | [0797-rabbits-in-forest](https://github.com/seokjin0414/my_leet/tree/master/0797-rabbits-in-forest) |
 | [1018-largest-perimeter-triangle](https://github.com/seokjin0414/my_leet/tree/master/1018-largest-perimeter-triangle) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/seokjin0414/my_leet/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -495,6 +497,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0333-largest-bst-subtree](https://github.com/seokjin0414/my_leet/tree/master/0333-largest-bst-subtree) |
 | [0361-bomb-enemy](https://github.com/seokjin0414/my_leet/tree/master/0361-bomb-enemy) |
 | [0368-largest-divisible-subset](https://github.com/seokjin0414/my_leet/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/seokjin0414/my_leet/tree/master/0396-rotate-function) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/seokjin0414/my_leet/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0806-domino-and-tromino-tiling](https://github.com/seokjin0414/my_leet/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/seokjin0414/my_leet/tree/master/0868-push-dominoes) |
