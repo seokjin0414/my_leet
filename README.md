@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/seokjin0414/my_leet/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/seokjin0414/my_leet/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/seokjin0414/my_leet/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [4005-maximum-total-subarray-value-i](https://github.com/seokjin0414/my_leet/tree/master/4005-maximum-total-subarray-value-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -585,6 +586,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3195-separate-black-and-white-balls](https://github.com/seokjin0414/my_leet/tree/master/3195-separate-black-and-white-balls) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/seokjin0414/my_leet/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/seokjin0414/my_leet/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [4005-maximum-total-subarray-value-i](https://github.com/seokjin0414/my_leet/tree/master/4005-maximum-total-subarray-value-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
